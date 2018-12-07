@@ -40,7 +40,7 @@ class App extends Component {
       console.log(range)
        this.setState({networkrangestart:range.start})
        this.setState({networkrangeend:range.end})
-       this.setState({format:IPv6.ptr(this.state.IP,this.state.BM)})
+       this.setState({format:IPv6.ptr(this.state.IP,64)})
     }
   handleClick(event){
     // var data ={
